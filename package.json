@@ -10,5 +10,8 @@
     "vuepress": "1.2.0",
     "vuepress-theme-reco": "1.1.1"
   },
-  "description": "Recording something like time..."
+  "description": "Recording something like time...",
+  "dependencies": {
+    "yarn": "^1.19.1"
+  }
 }
