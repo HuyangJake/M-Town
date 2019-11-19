@@ -26,6 +26,9 @@ npm run dev
 
 # build
 npm run build
+
+#deploy
+npm run deploy
 ```
 
 **yarn**
@@ -44,4 +47,7 @@ yarn dev
 
 # build
 yarn build
+
+#deploy
+yarn deploy
 ```
