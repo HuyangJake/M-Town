@@ -1,7 +1,7 @@
 module.exports = {
   "title": "慕城 M-Town",
   "description": "Recording something like time...",
-  "dest": "public",
+  "dest": "../public",
   "head": [
     [
       "link",
