@@ -10,6 +10,8 @@ categories: [非智能脚本]
 - /Library/LaunchAgents 由管理员为用户定义的任务项 
 - /Library/LaunchDaemons 由管理员定义的守护进程任务项 
 - /System/Library/LaunchAgents 由Mac OS X为用户定义的任务项 
+
+
 说明:Agents文件夹下的plist是需要用户登录后，才会加载的，而Daemons文件夹下得plist是只要开机，可以不用登录就会被加载
 
 <!-- more -->

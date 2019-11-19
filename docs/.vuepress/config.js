@@ -1,5 +1,5 @@
 module.exports = {
-  "title": "M-Town",
+  "title": "慕城 M-Town",
   "description": "Recording something like time...",
   "dest": "public",
   "head": [
@@ -35,36 +35,36 @@ module.exports = {
         "text": "Contact",
         "icon": "reco-message",
         "items": [
-          {
-            "text": "NPM",
-            "link": "https://www.npmjs.com/~reco_luan",
-            "icon": "reco-npm"
-          },
+          // {
+          //   "text": "NPM",
+          //   "link": "https://www.npmjs.com/~reco_luan",
+          //   "icon": "reco-npm"
+          // },
           {
             "text": "GitHub",
-            "link": "https://github.com/recoluan",
+            "link": "https://github.com/HuyangJake",
             "icon": "reco-github"
           },
-          {
-            "text": "简书",
-            "link": "https://www.jianshu.com/u/cd674a19515e",
-            "icon": "reco-jianshu"
-          },
-          {
-            "text": "CSDN",
-            "link": "https://blog.csdn.net/recoluan",
-            "icon": "reco-csdn"
-          },
-          {
-            "text": "博客圆",
-            "link": "https://www.cnblogs.com/luanhewei/",
-            "icon": "reco-bokeyuan"
-          },
-          {
-            "text": "WeChat",
-            "link": "https://mp.weixin.qq.com/s/mXFqeUTegdvPliXknAAG_A",
-            "icon": "reco-wechat"
-          }
+          // {
+          //   "text": "简书",
+          //   "link": "https://www.jianshu.com/u/cd674a19515e",
+          //   "icon": "reco-jianshu"
+          // },
+          // {
+          //   "text": "CSDN",
+          //   "link": "https://blog.csdn.net/recoluan",
+          //   "icon": "reco-csdn"
+          // },
+          // {
+          //   "text": "博客圆",
+          //   "link": "https://www.cnblogs.com/luanhewei/",
+          //   "icon": "reco-bokeyuan"
+          // },
+          // {
+          //   "text": "WeChat",
+          //   "link": "https://mp.weixin.qq.com/s/mXFqeUTegdvPliXknAAG_A",
+          //   "icon": "reco-wechat"
+          // }
         ]
       }
     ],
