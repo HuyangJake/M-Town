@@ -17,6 +17,8 @@ cd ../public
 # 如果你是要部署到自定义域名
 # echo 'www.example.com' > CNAME
 
+echo hu.yangjie.hu > CNAME
+
 git init
 git add -A
 git commit -m 'deploy'
