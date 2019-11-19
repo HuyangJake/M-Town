@@ -8,6 +8,8 @@ categories: [技术拾荒]
 “不常用只是对我个人而言，不喜勿喷~”
 那么我先列一下要讲到的git命令吧
 
+<!-- more -->
+
 ``` shell
 git rebase
 git rebase --onto
@@ -15,15 +17,11 @@ git reset --soft
 git pick
 ```
 
-<!-- more -->
-
 ### Git rebase
 
 中文叫 “变基”（从sourcetree上的翻译得来），单从名字理解起来也挺形象的，就是将当前的基础给修改掉，移花接木之类的意思吧😂
 
 `rebase` 实现的最终效果是跟 `merge` 相同————将两个分支的修改合并。但略有不同，比如在新的分支中做了 C5 C6 的两次修改提交，现在要将这两个修改合到原分支上。 从下面两张图来看 `rebase` 和 `merge` 的区别吧：
-
-<!-- more -->
 
 __merge__
 

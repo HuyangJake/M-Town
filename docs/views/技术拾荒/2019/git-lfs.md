@@ -7,6 +7,8 @@ categories: [技术拾荒]
 
 Git仓库默认是有100M文件大小的限制，比如我这个项目中的`Python.framework`文件大小超过了100M,就不能上传到GitHub了（这个限制其实可以取消）。
 
+<!-- more -->
+
 ``` shell
 remote: error: GH001: Large files detected. 
 
@@ -20,7 +22,7 @@ this exceeds GitHub's file size limit of 100.00 MB
 
 但更严重的事是 设计图，视频等大文件在项目中存在多了，项目会变得十分臃肿，对日常开发的分支切换，文件替换造成了很多负担。如何解决？见上方代码块中Git的错误提示，给了解决方案: [LFS](https://github.com/git-lfs/git-lfs)
 
-<!-- more -->
+
 
 解决方案在 [https://git-lfs.github.com](https://git-lfs.github.com) 使用 `Large File Storage`
 
