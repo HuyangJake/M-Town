@@ -85,7 +85,7 @@ module.exports = {
     "sidebar": "auto",
     "lastUpdated": "Last Updated",
     "author": "Jakey Yang",
-    "record": "xxxx",
+    "record": "浙ICP备18046274号-2",
     "startYear": "2017"
   },
   "markdown": {
