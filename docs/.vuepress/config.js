@@ -19,18 +19,21 @@ module.exports = {
     ]
   ],
   "theme": "reco",
+  "plugins": [['@vuepress-reco/comments', {
+    "solution": 'vuess',
+    "options": {
+      "title": 'M-Town',
+      "platform": 'github',
+      "owner": 'HuyangJake',
+      "repo": 'https://github.com/HuyangJake/M-Town',
+      "clientId": '465fc53423145e17a447',
+      "clientSecret": '4c8103f9a678b2e4546912bd02111ddf33c49f24',
+    }
+  }]],
   "themeConfig": {
     "GAID": "UA-152942780-1", // 项目生成后生成的 ID 值
     "faceImage": '/head.png',
-    vssueConfig: {
-      platform: 'github',
-      owner: 'HuyangJake',
-      repo: 'https://github.com/HuyangJake/M-Town',
-      clientId: '465fc53423145e17a447',
-      clientSecret: '4c8103f9a678b2e4546912bd02111ddf33c49f24',
-    },
-     // 密钥
-     keyPage: {
+     keyPage: {// 密钥
       keys: ['jakejake'],
       color: '#42b983', // 登录页动画球的颜色
       lineColor: '#42b983' // 登录页动画线的颜色
