@@ -20,6 +20,8 @@ module.exports = {
   ],
   "theme": "reco",
   "themeConfig": {
+    "GAID": "UA-152942780-1", // 项目生成后生成的 ID 值
+    "faceImage": '/head.png',
     "nav": [
       {
         "text": "Home",
@@ -86,7 +88,7 @@ module.exports = {
     "lastUpdated": "Last Updated",
     "author": "Jakey Yang",
     "record": "浙ICP备18046274号-2",
-    "startYear": "2017"
+    "startYear": "2016"
   },
   "markdown": {
     "lineNumbers": true
