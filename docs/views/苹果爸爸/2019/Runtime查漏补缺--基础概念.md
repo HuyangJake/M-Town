@@ -22,7 +22,7 @@ Runtime 不只是一些C语言的API，由 `Class`、 `Meta Class`、 `Instance`
 
 每个对象都是一个`objc_object`结构体， 有一个`isa`指针指向自己所属的类，类被定义为`objc_class`结构体，其中定义了对象的`methodlist`, `protocol`, `ivar list`。类也是对象，它的`isa`指针指向`meta_class`, 元类对的`isa`指针指向自己。
 
-``` c++
+``` c
 typedef struct objc_class *Class; 
 struct objc_class : objc_object { 
 // Class ISA; Class superclass; 

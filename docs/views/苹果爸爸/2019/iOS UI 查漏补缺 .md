@@ -23,7 +23,7 @@ UIView的属性基本都是来自CALayer的映射，而CALayer内部并没有属
 #### 对象销毁
 将对象放到后台线程中进行销毁的小tip
 
-``` obejctivec
+``` objectivec
 NSArray *tmp = self.array;
 self.array = nil;
 dispatch_async(queue, ^{
