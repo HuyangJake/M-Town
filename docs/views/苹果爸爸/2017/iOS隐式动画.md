@@ -8,7 +8,7 @@ categories: [苹果爸爸]
 先来一段引用改变下对动画的世界观：
 >Core Animation基于一个假设，说屏幕上的任何东西都可以（或者可能）做动画。 动画并不需要你在Core Animation中手动打开，相反需要明确地关闭，否则他会一直存在。
 
-``` objctivec
+``` objectivec
 
  	CGFloat red = arc4random() / (CGFloat)INT_MAX;
     CGFloat green = arc4random() / (CGFloat)INT_MAX;

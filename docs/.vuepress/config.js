@@ -22,6 +22,13 @@ module.exports = {
   "themeConfig": {
     "GAID": "UA-152942780-1", // 项目生成后生成的 ID 值
     "faceImage": '/head.png',
+    vssueConfig: {
+      platform: 'github',
+      owner: 'HuyangJake',
+      repo: 'https://github.com/HuyangJake/M-Town',
+      clientId: '465fc53423145e17a447',
+      clientSecret: '4c8103f9a678b2e4546912bd02111ddf33c49f24',
+    },
     "nav": [
       {
         "text": "Home",
@@ -85,7 +92,7 @@ module.exports = {
     "search": true,
     "searchMaxSuggestions": 10,
     "sidebar": "auto",
-    "lastUpdated": "Last Updated",
+    "lastUpdated": "最后更新",
     "author": "Jakey Yang",
     "record": "浙ICP备18046274号-2",
     "startYear": "2016"
