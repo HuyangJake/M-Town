@@ -3,6 +3,10 @@
 # 终止一个错误
 set -e
 
+git add .
+git commit -m "edit blog"
+git push
+
 # 构建
 # npm run docs:build
 yarn build
@@ -27,6 +31,3 @@ git push -f git@github.com:HuyangJake/M-Town.git master:gh-pages
 
 cd -
 
-git add .
-git commit -m "edit blog"
-git push
