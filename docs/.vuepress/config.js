@@ -29,12 +29,12 @@ module.exports = {
       clientId: '465fc53423145e17a447',
       clientSecret: '4c8103f9a678b2e4546912bd02111ddf33c49f24',
     },
-     // 密钥
-     keyPage: {
-      keys: ['jake'],
-      color: '#42b983', // 登录页动画球的颜色
-      lineColor: '#42b983' // 登录页动画线的颜色
-    },
+    //  // 密钥
+    //  keyPage: {
+    //   keys: ['jake'],
+    //   color: '#42b983', // 登录页动画球的颜色
+    //   lineColor: '#42b983' // 登录页动画线的颜色
+    // },
     "nav": [
       {
         "text": "Home",
@@ -105,5 +105,10 @@ module.exports = {
   },
   "markdown": {
     "lineNumbers": true
+  },
+  plugins: {
+    'sitemap': {
+      hostname: 'http://ioser.store'
+    },
   }
 }
