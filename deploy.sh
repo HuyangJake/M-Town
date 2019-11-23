@@ -5,7 +5,7 @@ set -e
 
 git add .
 git commit -m "edit blog"
-git push
+echo git push
 
 # 构建
 # npm run docs:build
