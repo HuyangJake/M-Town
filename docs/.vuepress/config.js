@@ -1,5 +1,5 @@
 module.exports = {
-  "title": "慕城 M-Town",
+  "title": "M-Town",
   "description": "Recording something like time...",
   "dest": "../public",
   "head": [
