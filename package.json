@@ -14,6 +14,6 @@
   "description": "Recording something like time...",
   "dependencies": {
     "vuepress-plugin-sitemap": "^2.3.1",
-    "yarn": "^1.19.1"
+    "yarn": "^1.22.0"
   }
 }
